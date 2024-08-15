@@ -7,7 +7,7 @@ totalPutts = 0
 if option == "3":
     for i in range(1, 4):
         totalPutts += int(input(f"How many putts for hole {i}? (par is 3) "))
-    totalScore = totalPutts - 9  # Calculate total score after the loop
+    totalScore = totalPutts - 9
     if totalScore > 0:
         print(f"Nice try, {name}... Your total score was: +{totalScore}.")
     elif totalScore < 0:
@@ -18,7 +18,7 @@ if option == "3":
 elif option == "6":
     for i in range(1, 7):
         totalPutts += int(input(f"How many putts for hole {i}? (par is 3) "))
-    totalScore = totalPutts - 18  # Calculate total score after the loop
+    totalScore = totalPutts - 18
     if totalScore > 0:
         print(f"Nice try, {name}... Your total score was: +{totalScore}.")
     elif totalScore < 0:
